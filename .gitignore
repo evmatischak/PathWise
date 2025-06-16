@@ -1,0 +1,49 @@
+# ======================
+# Node/React frontend
+# ======================
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+frontend/.DS_Store
+
+# ======================
+# Python backend
+# ======================
+fuctions/node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.env
+.env.*
+
+# ======================
+# VS Code project files
+# ======================
+.vscode/
+
+# ======================
+# OS junk
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Log / coverage files
+# ======================
+*.log
+coverage/
+*.cover
+*.coverage
+*.egg
+
+# ======================
+# Misc
+# ======================
+*.swp
+junk/
+backend/src/data/*
