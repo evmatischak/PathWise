@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathwise.org/schemas/pathwise-ontology.schema.json",
+  "title": "PathWise Ontology Schema (Clean Version)",
+  "description": "Ontology schema using category-based nesting, snake_case string IDs, and minimal fields.",
+  "type": "object",
+  "required": ["ontology", "version", "categories"],
+  "properties": {
+    "ontology": {
+      "type": "string",
+      "description": "The name of the ontology."
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version (e.g., 1.0.0).",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "categories": {
+      "type": "array",
+      "description": "Groupings of ontology terms by semantic category.",
+      "items": {
+        "type": "object",
+        "required": ["category", "terms"],
+        "properties": {
+          "category": {
+            "type": "string",
+            "description": "Name of the category (e.g., 'biological events')."
+          },
+          "terms": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "label", "definition"],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "Unique string ID in snake_case (e.g., 'oxidative_stress').",
+                  "pattern": "^[a-z][a-z0-9_]*$"
+                },
+                "label": {
+                  "type": "string",
+                  "description": "Human-readable name of the term."
+                },
+                "definition": {
+                  "type": "string",
+                  "description": "Plain-language definition of the term."
+                },
+                "synonyms": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "status": {
+                  "type": "string",
+                  "enum": ["active", "deprecated"],
+                  "description": "Status of the term (optional)."
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

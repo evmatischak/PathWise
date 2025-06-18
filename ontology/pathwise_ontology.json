@@ -1,0 +1,79 @@
+{
+  "ontology": "PathWise Core Ontology",
+  "version": "1.0.1",
+  "categories": [
+    {
+      "category": "biological pathways",
+      "terms": [
+        {
+          "id": "unk@steatohepatitis_1",
+          "label": "steatohepatitis with unknown etiology",
+          "definition": "Fatty liver disease with inflammation and liver cell damage, but the cause is not known. Involves PPARa and DHB4/HSD17B4.",
+          "sex": [],
+          "organism": []
+        },
+        {
+          "id": "unk@steatohepatitis_2",
+          "label": "steatohepatitis with unknown etiology",
+          "definition": "Fatty liver disease with inflammation and liver cell damage, but the cause is not known. Involves PPARa and SHP."
+        },
+        {
+          "id": "unk@steatohepatitis_3",
+          "label": "steatohepatitis with unknown etiology",
+          "definition": "Fatty liver disease with inflammation and liver cell damage, but the cause is not known. Starts at DHB4/HSD17B4."
+        },
+        {
+          "id": "fluid_buildup_in_the_lungs@death",
+          "label": "fluid buildup in the lungs leading to death",
+          "definition": "Fluid accumulation in the lungs that can lead to respiratory failure and death."
+        },
+        {
+          "id": "oxidative_stress@lung_function",
+          "label": "oxidative stress leading to impaired lung function",
+          "definition": "Oxidative stress in the lungs that can lead to impaired lung function."
+        }
+      ]
+    },
+    {
+      "category": "biological entities",
+      "terms": [
+        {
+          "id": "PW:000003",
+          "label": "hepatocyte apoptosis",
+          "definition": "Programmed cell death of liver cells, a common key event in toxic responses.",
+          "examples": ["caspase-mediated apoptosis in hepatocytes"],
+          "parent": "PW:000011"
+        }
+      ]
+    },
+    {
+      "category": "relationship types",
+      "terms": [
+        {
+          "id": "PW:100000",
+          "label": "leads to",
+          "definition": "Indicates a direct causal progression from one key event to another."
+        },
+        {
+          "id": "PW:100001",
+          "label": "inhibits",
+          "definition": "A downstream event is suppressed or reduced by the upstream event.",
+          "examples": ["cytokine binding inhibits apoptosis"],
+          "parent": "PW:100100"
+        },
+        {
+          "id": "PW:100002",
+          "label": "activates",
+          "definition": "An upstream event initiates or enhances a downstream event.",
+          "examples": ["receptor binding activates signal transduction"],
+          "parent": "PW:100100"
+        },
+        {
+          "id": "PW:100100",
+          "label": "causal relationship",
+          "definition": "A type of relationship that describes directional cause-effect interactions between key events."
+        }
+      ]
+    }
+  ]
+}
