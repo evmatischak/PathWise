@@ -41,8 +41,7 @@
           "id": "PW:000003",
           "label": "hepatocyte apoptosis",
           "definition": "Programmed cell death of liver cells, a common key event in toxic responses.",
-          "examples": ["caspase-mediated apoptosis in hepatocytes"],
-          "parent": "PW:000011"
+          "locations": []
         }
       ]
     },
@@ -57,16 +56,12 @@
         {
           "id": "PW:100001",
           "label": "inhibits",
-          "definition": "A downstream event is suppressed or reduced by the upstream event.",
-          "examples": ["cytokine binding inhibits apoptosis"],
-          "parent": "PW:100100"
+          "definition": "A downstream event is suppressed or reduced by the upstream event."
         },
         {
           "id": "PW:100002",
           "label": "activates",
-          "definition": "An upstream event initiates or enhances a downstream event.",
-          "examples": ["receptor binding activates signal transduction"],
-          "parent": "PW:100100"
+          "definition": "An upstream event initiates or enhances a downstream event."
         },
         {
           "id": "PW:100100",
