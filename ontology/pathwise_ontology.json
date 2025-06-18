@@ -9,28 +9,101 @@
           "id": "unk@steatohepatitis_1",
           "label": "steatohepatitis with unknown etiology",
           "definition": "Fatty liver disease with inflammation and liver cell damage, but the cause is not known. Involves PPARa and DHB4/HSD17B4.",
-          "sex": [],
-          "organism": []
+          "sex": ["known_to_be_sex_neutral"],
+          "organism": ["human", "mouse", "rat"]
         },
         {
           "id": "unk@steatohepatitis_2",
           "label": "steatohepatitis with unknown etiology",
-          "definition": "Fatty liver disease with inflammation and liver cell damage, but the cause is not known. Involves PPARa and SHP."
+          "definition": "Fatty liver disease with inflammation and liver cell damage, but the cause is not known. Involves PPARa and SHP.",
+          "sex": ["known_to_be_sex_neutral"],
+          "organism": ["human", "mouse", "rat"]
         },
         {
           "id": "unk@steatohepatitis_3",
           "label": "steatohepatitis with unknown etiology",
-          "definition": "Fatty liver disease with inflammation and liver cell damage, but the cause is not known. Starts at DHB4/HSD17B4."
+          "definition": "Fatty liver disease with inflammation and liver cell damage, but the cause is not known. Starts at DHB4/HSD17B4.",
+          "sex": ["known_to_be_sex_neutral"],
+          "organism": ["human", "mouse", "rat"]
         },
         {
           "id": "fluid_buildup_in_the_lungs@death",
           "label": "fluid buildup in the lungs leading to death",
-          "definition": "Fluid accumulation in the lungs that can lead to respiratory failure and death."
+          "definition": "Fluid accumulation in the lungs that can lead to respiratory failure and death.",
+          "sex": ["known_to_be_sex_neutral"],
+          "organism": ["human", "mouse", "rat"]
         },
         {
           "id": "oxidative_stress@lung_function",
           "label": "oxidative stress leading to impaired lung function",
-          "definition": "Oxidative stress in the lungs that can lead to impaired lung function."
+          "definition": "Oxidative stress in the lungs that can lead to impaired lung function.",
+          "sex": ["known_to_be_sex_neutral"],
+          "organism": ["human", "mouse", "rat"]
+        }
+      ]
+    },
+    {
+      "category": "sex",
+      "terms": [
+        {
+          "id": "male",
+          "label": "male",
+          "definition": "Refers to the sex of an organism that produces small, mobile gametes (sperm). Use this term if there is evidence that the biological pathway or event is specific to males."
+        },
+        {
+          "id": "female",
+          "label": "female",
+          "definition": "Refers to the sex of an organism that produces larger, immobile gametes (eggs). Use this term if there is evidence that the biological pathway or event is specific to females"
+        },
+        {
+          "id": "hermaphrodite",
+          "label": "hermaphrodite",
+          "definition": "Refers to an organism that has both male and female reproductive organs and can produce both types of gametes throughout a lifespan, but not necessarily at the same time. Use this term if there is evidence that the biological pathway or event is specific to hermaphrodites."
+        },
+        {
+          "id": "not_known_to_be_sex_specific",
+          "label": "not known to be sex specific",
+          "definition": "Refers to a biological pathway or event for which there is no current empirical evidence or established scientific consensus indicating that it is specific to a particular sex. This terms captures an absence of evidence, not evidence of absence."
+        },
+        {
+          "id": "known_to_be_sex_neutral",
+          "label": "known_to_be_sex neutral",
+          "definition": "Refers to a biological pathway or event for which there is no current empirical evidence or established scientific consensus indicating that it is explicitly not specific to a particular sex. This term is used when the biological pathway or event is known to occur in both sexes."
+        },
+        {
+          "id": "believed_to_be_sex_neutral",
+          "label": "believed_to_be_sex neutral",
+          "definition": "Refers to a biological pathway or event for which there is no current empirical evidence or established scientific consensus indicating that it is explicitly not specific to a particular sex; however, the data are not extensive. This term is used when the biological pathway or event is believed to occur in both sexes."
+        },
+        {
+          "id": "intersex",
+          "label": "intersex",
+          "definition": "Refers to an organism that has a combination of biological sex characteristics that do not fit typical definitions of male or female. This can include variations in chromosomes, gonads, or reproductive anatomy. Use this term if there is evidence that the biological pathway or event is specific to intersex individuals."
+        }
+      ]
+    },
+    {
+      "category": "organisms",
+      "terms": [
+        {
+          "id": "human",
+          "label": "human",
+          "definition": "Refers to Homo sapiens, the species of bipedal primates to which modern humans belong. Use this term if there is evidence that the biological pathway or event is known to occur in humans."
+        },
+        {
+          "id": "mammals",
+          "label": "mammals",
+          "definition": "Mammals are a clade of warm-blooded vertebrate animals characterized by the presence of mammary glands, hair or fur at some stage of development."
+        },
+        {
+          "id": "mouse",
+          "label": "mouse",
+          "definition": "Mus musculus is a small, nocturnal mammal belonging to the order Rodentia and the family Muridae."
+        },
+        {
+          "id": "rat",
+          "label": "rat",
+          "definition": "Rattus norvegicus, is a medium-sized rodent belonging to the family Muridae."
         }
       ]
     },
@@ -38,10 +111,10 @@
       "category": "biological entities",
       "terms": [
         {
-          "id": "PW:000003",
-          "label": "hepatocyte apoptosis",
-          "definition": "Programmed cell death of liver cells, a common key event in toxic responses.",
-          "locations": []
+          "id": "unknown_key_event",
+          "label": "unknown_key_event",
+          "definition": "A placeholder for a key event that is not specified.",
+          "locations": ["anywhere"]
         }
       ]
     },
@@ -49,24 +122,424 @@
       "category": "relationship types",
       "terms": [
         {
-          "id": "PW:100000",
-          "label": "leads to",
-          "definition": "Indicates a direct causal progression from one key event to another."
-        },
-        {
-          "id": "PW:100001",
+          "id": "inhibits",
           "label": "inhibits",
-          "definition": "A downstream event is suppressed or reduced by the upstream event."
+          "definition": "Decreases or blocks the functional activity of a downstream protein, pathway, receptor, enzyme, or transcription factor."
         },
         {
-          "id": "PW:100002",
+          "id": "activates",
           "label": "activates",
-          "definition": "An upstream event initiates or enhances a downstream event."
+          "definition": "Increaes the functional activity of a downstream protein, pathway, receptor, enzyme, or transcription factor."
         },
         {
-          "id": "PW:100100",
-          "label": "causal relationship",
-          "definition": "A type of relationship that describes directional cause-effect interactions between key events."
+          "id": "upregulates",
+          "label": "upregulates",
+          "definition": "Increases the expression of a gene or protein, leading to higher levels of that gene or protein in the cell."
+        },
+        {
+          "id": "downregulates",
+          "label": "downregulates",
+          "definition": "Decreases the expression of a gene or protein, leading to lower levels of that gene or protein in the cell."
+        },
+        {
+          "id": "binds_to",
+          "label": "binds to",
+          "definition": "Describes a physical interaction between two molecules, such as a protein binding to a receptor or enzyme."
+        },
+        {
+          "id": "translocates_to",
+          "label": "translocates to",
+          "definition": "Describes the movement of a molecule from one location to another within a cell or organism."
+        },
+        {
+          "id": "interacts_with",
+          "label": "interacts with",
+          "definition": "Describes a general interaction between two molecules, which may include binding, activation, inhibition, or other forms of interaction."
+        },
+        {
+          "id": "modulates",
+          "label": "modulates",
+          "definition": "Describes a change in the activity or function of a molecule, which may involve activation, inhibition, or other forms of regulation."
+        },
+        {
+          "id": "transforms_into",
+          "label": "transforms into",
+          "definition": "Describes a change in the state or form of a molecule, such as a precursor molecule being converted into an active form."
+        },
+        {
+          "id": "stabilizes_mrna",
+          "label": "stabilizes mRNA",
+          "definition": "Describes a process that increases the stability of messenger RNA (mRNA), preventing its degradation and allowing for longer translation into protein."
+        },
+        {
+          "id": "degrades_mrna",
+          "label": "degrades mRNA",
+          "definition": "Describes a process that leads to the breakdown of messenger RNA (mRNA), resulting in decreased translation into protein."
+        },
+        {
+          "id": "transcribes",
+          "label": "transcribes",
+          "definition": "Describes the process of synthesizing RNA from a DNA template, leading to the production of mRNA."
+        },
+        {
+          "id": "enhances_translation",
+          "label": "enhances translation",
+          "definition": "Describes a process that increases the efficiency or rate of translation of mRNA into protein."
+        },
+        {
+          "id": "suppresses_translation",
+          "label": "suppresses translation",
+          "definition": "Describes a process that inhibits the translation of mRNA into protein, leading to decreased protein synthesis."
+        },
+        {
+          "id": "phosphorylates",
+          "label": "phosphorylates",
+          "definition": "Describes the addition of a phosphate group to a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "dephosphorylates",
+          "label": "dephosphorylates",
+          "definition": "Describes the removal of a phosphate group from a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "acetylates",
+          "label": "acetylates",
+          "definition": "Describes the addition of an acetyl group to a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "deacetylates",
+          "label": "deacetylates",
+          "definition": "Describes the removal of an acetyl group from a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "methylates",
+          "label": "methylates",
+          "definition": "Describes the addition of a methyl group to a molecule, often a protein or DNA, which can alter its activity or function."
+        },
+        {
+          "id": "demethylates",
+          "label": "demethylates",
+          "definition": "Describes the removal of a methyl group from a molecule, often a protein or DNA, which can alter its activity or function."
+        },
+        {
+          "id": "ubiquitinates",
+          "label": "ubiquitinates",
+          "definition": "Describes the addition of ubiquitin to a protein, which can target it for degradation or alter its function."
+        },
+        {
+          "id": "deubiquitinates",
+          "label": "deubiquitinates",
+          "definition": "Describes the removal of ubiquitin from a protein, which can prevent its degradation and alter its function."
+        },
+        {
+          "id": "glycosylates",
+          "label": "glycosylates",
+          "definition": "Describes the addition of a carbohydrate group to a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "deglycosylates",
+          "label": "deglycosylates",
+          "definition": "Describes the removal of a carbohydrate group from a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "sulfates",
+          "label": "sulfates",
+          "definition": "Describes the addition of a sulfate group to a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "desulfates",
+          "label": "desulfates",
+          "definition": "Describes the removal of a sulfate group from a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "palmitoylates",
+          "label": "palmitoylates",
+          "definition": "Describes the addition of a palmitoyl group to a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "depalmitoylates",
+          "label": "depalmitoylates",
+          "definition": "Describes the removal of a palmitoyl group from a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "myristoylates",
+          "label": "myristoylates",
+          "definition": "Describes the addition of a myristoyl group to a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "demyristoylates",
+          "label": "demyristoylates",
+          "definition": "Describes the removal of a myristoyl group from a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "prenylates",
+          "label": "prenylates",
+          "definition": "Describes the addition of a prenyl group to a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "deprenylates",
+          "label": "deprenylates",
+          "definition": "Describes the removal of a prenyl group from a molecule, often a protein, which can alter its activity or function."
+        },
+        {
+          "id": "transports",
+          "label": "transports",
+          "definition": "Describes the movement of a molecule from one location to another within a cell or organism, often involving transport proteins or vesicles."
+        },
+        {
+          "id": "secretes",
+          "label": "secretes",
+          "definition": "Describes the process by which a cell or gland releases a substance, such as a hormone or enzyme, into the extracellular space or bloodstream."
+        },
+        {
+          "id": "absorbs",
+          "label": "absorbs",
+          "definition": "Describes the process by which a cell or tissue takes up a substance, such as a nutrient or drug, from the extracellular space or bloodstream."
+        },
+        {
+          "id": "excretes",
+          "label": "excretes",
+          "definition": "Describes the process by which a cell or organism eliminates waste products or substances from its body."
+        },
+        {
+          "id": "synthesizes",
+          "label": "synthesizes",
+          "definition": "Describes the process of creating a complex molecule from simpler precursors, often involving enzymatic reactions."
+        },
+        {
+          "id": "degrades",
+          "label": "degrades",
+          "definition": "Describes the breakdown of a complex molecule into simpler components, often involving enzymatic reactions."
+        },
+        {
+          "id": "forms_complexes_with",
+          "label": "forms complexes with",
+          "definition": "Describes the interaction between two or more molecules to form a stable complex, which may be necessary for their function."
+        },
+        {
+          "id": "dissociates_from",
+          "label": "dissociates from",
+          "definition": "Describes the separation of a molecule from a complex or another molecule, often leading to a change in function or activity."
+        },
+        {
+          "id": "transports_across_membrane",
+          "label": "transports across membrane",
+          "definition": "Describes the movement of a molecule across a biological membrane, often involving transport proteins or channels."
+        },
+        {
+          "id": "promotes_protein_degradation",
+          "label": "promotes protein degradation",
+          "definition": "Describes a process that enhances the breakdown of proteins into smaller peptides or amino acids, often involving proteolytic enzymes."
+        },
+        {
+          "id": "inhibits_protein_degradation",
+          "label": "inhibits protein degradation",
+          "definition": "Describes a process that prevents or reduces the breakdown of proteins into smaller peptides or amino acids, often involving proteolytic enzymes."
+        },
+        {
+          "id": "blocks_neurotransmitter_release",
+          "label": "blocks neurotransmitter release", 
+          "definition": "Describes a process that prevents the release of neurotransmitters from nerve cells, which can affect communication between neurons."
+        },
+        {
+          "id": "stimulates_neurotransmitter_release",
+          "label": "stimulates neurotransmitter release",
+          "definition": "Describes a process that promotes the release of neurotransmitters from nerve cells, enhancing communication between neurons."
+        },
+        {
+          "id": "inhibits_neurotransmitter_reuptake",
+          "label": "inhibits neurotransmitter reuptake",
+          "definition": "Describes a process that prevents the reabsorption of neurotransmitters back into the nerve cell, prolonging their action in the synaptic cleft."
+        },
+        {
+          "id": "stimulates_neurotransmitter_reuptake",
+          "label": "stimulates neurotransmitter reuptake",
+          "definition": "Describes a process that promotes the reabsorption of neurotransmitters back into the nerve cell, reducing their action in the synaptic cleft."
+        }        
+      ]
+    },
+    {
+      "category": "locations",
+      "terms": [
+        {
+          "id": "liver",
+          "label": "liver",
+          "definition": "The liver is a vital organ that plays a key role in metabolism, detoxification, and synthesis of proteins."
+        },
+        {
+          "id": "lungs",
+          "label": "lungs",
+          "definition": "The lungs are the primary organs of the respiratory system, responsible for gas exchange."
+        },
+        {
+          "id": "kidneys",
+          "label": "kidneys",
+          "definition": "The kidneys are organs that filter blood, remove waste, and regulate fluid balance."
+        },
+        {
+          "id": "heart",
+          "label": "heart",
+          "definition": "The heart is a muscular organ that pumps blood through the circulatory system."
+        },
+        {
+          "id": "brain",
+          "label": "brain",
+          "definition": "The brain is the central organ of the nervous system, responsible for processing sensory information and coordinating responses."
+        },
+        {
+          "id": "intestines",
+          "label": "intestines",
+          "definition": "The intestines are part of the digestive system, responsible for nutrient absorption and waste elimination."
+        },
+        {
+          "id": "skin",
+          "label": "skin",
+          "definition": "The skin is the body's largest organ, providing a barrier against environmental hazards."
+        },
+        {
+          "id": "muscles",
+          "label": "muscles",
+          "definition": "Muscles are tissues that contract to produce movement in the body."
+        },
+        {
+          "id": "bones",
+          "label": "bones",
+          "definition": "Bones are rigid organs that form the skeleton, providing structure and protection to the body."
+        },
+        {
+          "id": "blood",
+          "label": "blood",
+          "definition": "Blood is a fluid connective tissue that transports nutrients, gases, and waste products throughout the body."
+        },
+        {
+          "id": "nerves",
+          "label": "nerves",
+          "definition": "Nerves are bundles of fibers that transmit signals between the brain and other parts of the body."
+        },
+        {
+          "id": "anywhere",
+          "label": "anywhere",
+          "definition": "A non-specific location that can refer to any part of the body."
+        },
+        {
+          "id": "spleen",
+          "label": "spleen",
+          "definition": "The spleen is an organ involved in filtering blood and immune response."
+        },
+        {
+          "id": "pancreas",
+          "label": "pancreas",
+          "definition": "The pancreas is an organ that produces digestive enzymes and hormones, including insulin."
+        },
+        {
+          "id": "gallbladder",
+          "label": "gallbladder",
+          "definition": "The gallbladder is a small organ that stores bile produced by the liver."
+        },
+        {
+          "id": "stomach",
+          "label": "stomach",
+          "definition": "The stomach is a muscular organ that breaks down food using acids and enzymes."
+        },
+        {
+          "id": "bladder",
+          "label": "bladder",
+          "definition": "The bladder is a hollow organ that stores urine before it is excreted."
+        },
+        {
+          "id": "thymus",
+          "label": "thymus",
+          "definition": "The thymus is an organ involved in the development of the immune system."
+        },
+        {
+          "id": "testes",
+          "label": "testes",
+          "definition": "The testes are male reproductive organs that produce sperm and hormones."
+        },
+        {
+          "id": "ovaries",
+          "label": "ovaries",
+          "definition": "The ovaries are female reproductive organs that produce eggs and hormones."
+        },
+        {
+          "id": "prostate",
+          "label": "prostate",
+          "definition": "The prostate is an organ that produces seminal fluid and is involved in reproductive function."
+        },
+        {
+          "id": "uterus",
+          "label": "uterus",
+          "definition": "The uterus is an organ involved in reproductive function, including menstruation and pregnancy. It houses the developing conceptus."
+        },
+        {
+          "id": "placenta",
+          "label": "placenta",
+          "definition": "The placenta is an organ that develops during pregnancy to provide nutrients and oxygen to the fetus."
+        },
+        {
+          "id": "adipose_tissue",
+          "label": "adipose tissue",
+          "definition": "Adipose tissue is a type of connective tissue that stores fat and regulates energy balance."
+        },
+        {
+          "id": "lymphatic_system",
+          "label": "lymphatic system",
+          "definition": "The lymphatic system is a network of vessels and nodes that play a role in immune function and fluid balance."
+        },
+        {
+          "id": "immune_system",
+          "label": "immune system",
+          "definition": "The immune system is the body's defense against infectious organisms and other invaders."
+        },
+        {
+          "id": "endocrine_system",
+          "label": "endocrine system",
+          "definition": "The endocrine system is a network of glands that produce and release hormones to regulate various bodily functions."
+        },
+        {
+          "id": "nervous_system",
+          "label": "nervous system",
+          "definition": "The nervous system is a complex network of neurons and cells that transmit signals throughout the body."
+        },
+        {
+          "id": "musculoskeletal_system",
+          "label": "musculoskeletal system",
+          "definition": "The musculoskeletal system is the organ system that enables humans and other animals to move using the muscular and skeletal systems."
+        },
+        {
+          "id": "reproductive_system",
+          "label": "reproductive system",
+          "definition": "The reproductive system is the organ system involved in producing offspring."
+        },
+        {
+          "id": "digestive_system",
+          "label": "digestive system",
+          "definition": "The digestive system is the organ system responsible for breaking down food and absorbing nutrients."
+        },
+        {
+          "id": "respiratory_system",
+          "label": "respiratory system",
+          "definition": "The respiratory system is the organ system responsible for gas exchange, including breathing."
+        },
+        {
+          "id": "circulatory_system",
+          "label": "circulatory system",
+          "definition": "The circulatory system is the organ system that transports blood, nutrients, gases, and waste products throughout the body."
+        },
+        {
+          "id": "integumentary_system",
+          "label": "integumentary system",
+          "definition": "The integumentary system is the organ system that protects the body from damage, including skin, hair, and nails."
+        },
+        {
+          "id": "excretory_system",
+          "label": "excretory system",
+          "definition": "The excretory system is the organ system responsible for removing waste products from the body."
+        },
+        {
+          "id": "lymphatic_system",
+          "label": "lymphatic system",
+          "definition": "The lymphatic system is a network of vessels and nodes that play a role in immune function and fluid balance."
         }
       ]
     }

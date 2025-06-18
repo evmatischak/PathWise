@@ -35,7 +35,7 @@
                 "id": {
                   "type": "string",
                   "description": "Unique string ID in snake_case (e.g., 'oxidative_stress').",
-                  "pattern": "^[a-z][a-z0-9_]*$"
+                  "pattern": "^([a-z][a-z0-9_]*)(@([a-z][a-z0-9_]*))?$"
                 },
                 "label": {
                   "type": "string",
@@ -44,6 +44,21 @@
                 "definition": {
                   "type": "string",
                   "description": "Plain-language definition of the term."
+                },
+                "locations": {
+                  "type": "array",
+                  "items": {"type": "string" },
+                  "description": "Location where the term is commonly used (optional)."
+                },
+                "sex": {
+                  "type": "array",
+                  "items": {"type": "string"},
+                  "description": "The sex of the organism associated with the term (optional)."
+                },
+                "organism": {
+                  "type": "array",
+                  "items": {"type": "string"},
+                  "description": "The organism associated with the term (optional)."
                 },
                 "synonyms": {
                   "type": "array",
