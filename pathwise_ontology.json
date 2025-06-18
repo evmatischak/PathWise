@@ -225,7 +225,7 @@
           "locations": ["anywhere"]
         },
         {
-          "id": "fatty acid beta-oxidation",
+          "id": "fatty_acid_beta_oxidation",
           "label": "fatty acid beta-oxidation",
           "definition": "A metabolic process that breaks down fatty acids to produce energy, primarily occurring in the mitochondria of cells.",
           "locations": ["liver", "intestines"]
