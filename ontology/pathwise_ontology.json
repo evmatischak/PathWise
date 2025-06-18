@@ -115,6 +115,677 @@
           "label": "unknown_key_event",
           "definition": "A placeholder for a key event that is not specified.",
           "locations": ["anywhere"]
+        },
+        {
+          "id": "fxr",
+          "label": "FXR",
+          "definition": "Farnesoid X receptor (FXR) is a nuclear receptor that regulates bile acid, lipid, and glucose metabolism.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "pparg",
+          "label": "PPARg",
+          "definition": "Peroxisome proliferator-activated receptor gamma (PPARg) is a nuclear receptor that regulates glucose and lipid metabolism, as well as inflammation.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "ppard",
+          "label": "PPARd",
+          "definition": "Peroxisome proliferator-activated receptor delta (PPARd) is a nuclear receptor that regulates fatty acid oxidation and energy homeostasis.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "ppargamma_coactivator_1alpha",
+          "label": "PPARgamma coactivator 1-alpha",
+          "definition": "PPARgamma coactivator 1-alpha (PGC-1α) is a transcriptional coactivator that regulates energy metabolism and mitochondrial biogenesis.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "liver_x_receptor",
+          "label": "Liver X receptor",
+          "definition": "Liver X receptor (LXR) is a nuclear receptor that regulates cholesterol, fatty acid, and glucose metabolism.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "farnesoid_x_receptor",
+          "label": "Farnesoid X receptor",
+          "definition": "Farnesoid X receptor (FXR) is a nuclear receptor that regulates bile acid, lipid, and glucose metabolism.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "ppara",
+          "label": "PPARa",
+          "definition": "Peroxisome proliferator-activated receptor alpha (PPARa) is a nuclear receptor that regulates fatty acid metabolism and inflammation.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "shp",
+          "label": "SHP",
+          "definition": "Small heterodimer partner (SHP) is a nuclear receptor that regulates bile acid and lipid metabolism.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "dhb4_hsd17b4",
+          "label": "DHB4/HSD17B4",
+          "definition": "DHB4/HSD17B4 is an enzyme involved in fatty acid oxidation and bile acid synthesis.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "oxidative_stress",
+          "label": "oxidative stress",
+          "definition": "A condition characterized by an imbalance between the production of reactive oxygen species (ROS) and the body's ability to detoxify them, leading to cellular damage.",
+          "locations": ["lungs", "anywhere"]
+        },
+        {
+          "id": "fluid_buildup",
+          "label": "fluid buildup",
+          "definition": "An accumulation of excess fluid in tissues or cavities, which can lead to swelling and impaired function.",
+          "locations": ["lungs", "anywhere"]
+        },
+        {
+          "id": "lung_function_impairment",
+          "label": "lung function impairment",
+          "definition": "A condition in which the lungs are unable to function properly, leading to difficulty in breathing and reduced oxygen exchange.",
+          "locations": ["lungs", "anywhere"]
+        },
+        {
+          "id": "death",
+          "label": "death",
+          "definition": "The cessation of all biological functions that sustain an organism, leading to the end of life.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "inflammation",
+          "label": "inflammation",
+          "definition": "A biological response to harmful stimuli, characterized by redness, swelling, heat, and pain, which can lead to tissue damage.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "cellular_damage",
+          "label": "cellular damage",
+          "definition": "Harm to cells that impairs their function or structure, often resulting from oxidative stress or inflammation.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "metabolic_disorder",
+          "label": "metabolic disorder",
+          "definition": "A condition that disrupts normal metabolism, leading to an imbalance in the body's biochemical processes.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "immune_response",
+          "label": "immune response",
+          "definition": "The body's defense mechanism against pathogens, characterized by the activation of immune cells and the production of antibodies.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "hormonal_regulation",
+          "label": "hormonal regulation",
+          "definition": "The process by which hormones control various physiological functions in the body, including metabolism, growth, and reproduction.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "fatty acid beta-oxidation",
+          "label": "fatty acid beta-oxidation",
+          "definition": "A metabolic process that breaks down fatty acids to produce energy, primarily occurring in the mitochondria of cells.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "bile_acid_synthesis",
+          "label": "bile acid synthesis",
+          "definition": "The biochemical pathway that produces bile acids from cholesterol, which are essential for digestion and absorption of dietary fats.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "lipid_metabolism",
+          "label": "lipid metabolism",
+          "definition": "The set of biochemical processes that involve the synthesis and degradation of lipids in the body, including fatty acids and cholesterol.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "glucose_metabolism",
+          "label": "glucose metabolism",
+          "definition": "The biochemical processes that convert glucose into energy, including glycolysis, gluconeogenesis, and the citric acid cycle.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "cholesterol_metabolism",
+          "label": "cholesterol metabolism",
+          "definition": "The set of biochemical processes that involve the synthesis, transport, and degradation of cholesterol in the body.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "bile_acid_transport",
+          "label": "bile acid transport",
+          "definition": "The process by which bile acids are transported across cell membranes, primarily in the intestines and liver.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "immune_cell_activation",
+          "label": "immune cell activation",
+          "definition": "The process by which immune cells are stimulated to respond to pathogens or other harmful stimuli, leading to an immune response.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "oxidative_phosphorylation",
+          "label": "oxidative phosphorylation",
+          "definition": "A metabolic pathway that uses energy released from the oxidation of nutrients to produce ATP, primarily occurring in the mitochondria.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "apoptosis",
+          "label": "apoptosis",
+          "definition": "A programmed cell death process that eliminates damaged or unwanted cells in a controlled manner, preventing inflammation.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "autophagy",
+          "label": "autophagy",
+          "definition": "A cellular process that degrades and recycles cellular components, helping to maintain cellular homeostasis and respond to stress.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "cell_signaling",
+          "label": "cell signaling",
+          "definition": "The process by which cells communicate with each other through chemical signals, leading to various physiological responses.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "steatosis",
+          "label": "steatosis",
+          "definition": "The abnormal accumulation of lipids within cells, particularly in the liver, which can lead to fatty liver disease.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "fibrosis",
+          "label": "fibrosis",
+          "definition": "The formation of excess fibrous connective tissue in an organ or tissue, often as a result of chronic inflammation or injury.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "cirrhosis",
+          "label": "cirrhosis",
+          "definition": "A late stage of scarring (fibrosis) of the liver caused by many forms of liver diseases and conditions, such as hepatitis and chronic alcoholism.",
+          "locations": ["liver"]
+        },
+        {
+          "id": "neuroinflammation",
+          "label": "neuroinflammation",
+          "definition": "An inflammatory response within the brain or spinal cord, often associated with neurodegenerative diseases.",
+          "locations": ["brain"]
+        },
+        {
+          "id": "neurodegeneration",
+          "label": "neurodegeneration",
+          "definition": "The progressive loss of structure or function of neurons, which can lead to conditions such as Alzheimer's disease and Parkinson's disease.",
+          "locations": ["brain"]
+        },
+        {
+          "id": "immune_cell_recruitment",
+          "label": "immune cell recruitment",
+          "definition": "The process by which immune cells are attracted to sites of infection or injury, playing a key role in the immune response.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "cytokine_release",
+          "label": "cytokine release",
+          "definition": "The secretion of signaling molecules (cytokines) by immune cells, which helps to coordinate the immune response and inflammation.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "reactive_oxygen_species_production",
+          "label": "reactive oxygen species production",
+          "definition": "The generation of reactive oxygen species (ROS) as a byproduct of cellular metabolism, which can lead to oxidative stress.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "lipid_peroxidation",
+          "label": "lipid peroxidation",
+          "definition": "The oxidative degradation of lipids, leading to cell membrane damage and contributing to various diseases.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "oncotic_necrosis",
+          "label": "oncotic necrosis",
+          "definition": "A form of cell death characterized by cell swelling and rupture, often resulting from severe cellular injury or stress."
+        },
+        {
+          "id": "apoptotic_necrosis",
+          "label": "apoptotic necrosis",
+          "definition": "A form of cell death that combines features of apoptosis and necrosis, often occurring in response to severe cellular stress or damage.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "cellular_repair",
+          "label": "cellular repair",
+          "definition": "The process by which cells restore their structure and function after injury or stress, often involving DNA repair mechanisms.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "cellular_proliferation",
+          "label": "cellular proliferation",
+          "definition": "The process by which cells divide and multiply, leading to tissue growth and repair.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "cellular_differentiation",
+          "label": "cellular differentiation",
+          "definition": "The process by which unspecialized cells develop into specialized cell types with distinct functions.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "cellular_stress_response",
+          "label": "cellular stress response",
+          "definition": "The cellular mechanisms activated in response to stressors, such as oxidative stress or inflammation, to maintain homeostasis.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "cellular_homeostasis",
+          "label": "cellular homeostasis",
+          "definition": "The maintenance of stable internal conditions within a cell, including pH, ion concentrations, and metabolic processes.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "cellular_metabolism",
+          "label": "cellular metabolism",
+          "definition": "The set of biochemical reactions that occur within a cell to maintain life, including energy production and biosynthesis.",
+          "locations": ["anywhere"]
+        },
+        {
+          "id": "steatohepatitis",
+          "label": "steatohepatitis",
+          "definition": "A condition characterized by inflammation and damage to the liver due to the accumulation of fat, often associated with metabolic disorders.",
+          "locations": ["liver"]
+        },
+        {
+          "id": "nonalcoholic_fatty_liver_disease",
+          "label": "nonalcoholic fatty liver disease",
+          "definition": "A condition characterized by the accumulation of fat in the liver without significant alcohol consumption, often associated with obesity and metabolic syndrome.",
+          "locations": ["liver"]
+        },
+        {
+          "id": "alcoholic_liver_disease",
+          "label": "alcoholic liver disease",
+          "definition": "A condition characterized by liver damage due to excessive alcohol consumption, leading to inflammation, fatty liver, and cirrhosis.",
+          "locations": ["liver"]
+        },
+        {
+          "id": "chronic_liver_disease",
+          "label": "chronic liver disease",
+          "definition": "A long-term condition affecting the liver, often characterized by inflammation, fibrosis, and impaired liver function.",
+          "locations": ["liver"]
+        },
+        {
+          "id": "acute_liver_failure",
+          "label": "acute liver failure",
+          "definition": "A sudden and severe loss of liver function, often leading to life-threatening complications.",
+          "locations": ["liver"]
+        },
+        {
+          "id": "liver_cancer",
+          "label": "liver cancer",
+          "definition": "A malignant tumor that originates in the liver, often associated with chronic liver disease or cirrhosis.",
+          "locations": ["liver"]
+        },
+        {
+          "id": "biliary_disease",
+          "label": "biliary disease",
+          "definition": "A condition affecting the bile ducts and gallbladder, often leading to inflammation, obstruction, or infection.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "gallstones",
+          "label": "gallstones",
+          "definition": "Solid particles that form in the gallbladder, often causing pain and digestive issues.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "cholestasis",
+          "label": "cholestasis",
+          "definition": "A condition characterized by impaired bile flow, leading to the accumulation of bile acids in the liver and bloodstream.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "bile_acid_recycling",
+          "label": "bile acid recycling",
+          "definition": "The process by which bile acids are reabsorbed in the intestines and returned to the liver for reuse, playing a key role in digestion and metabolism.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "bile_acid_homeostasis",
+          "label": "bile acid homeostasis",
+          "definition": "The regulation of bile acid levels in the body to maintain proper digestion and metabolism, involving synthesis, transport, and recycling.",
+          "locations": ["liver", "intestines"]
+        },
+        {
+          "id": "gut_microbiota_interaction",
+          "label": "gut microbiota interaction",
+          "definition": "The complex interactions between the gut microbiota and the host's immune system, metabolism, and overall health.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_permeability",
+          "label": "intestinal permeability",
+          "definition": "The ability of the intestinal barrier to regulate the passage of substances between the gut lumen and the bloodstream, which can affect overall health.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "gut_brain_axis",
+          "label": "gut-brain axis",
+          "definition": "The bidirectional communication network between the gut and the brain, influencing mood, behavior, and overall health.",
+          "locations": ["intestines", "brain"]
+        },
+        {
+          "id": "gut_inflammation",
+          "label": "gut inflammation",
+          "definition": "An inflammatory response in the gastrointestinal tract, often associated with conditions such as inflammatory bowel disease (IBD) or infections.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_microbiota_dysbiosis",
+          "label": "intestinal microbiota dysbiosis",
+          "definition": "An imbalance in the composition of the gut microbiota, which can lead to various health issues, including digestive disorders and metabolic diseases.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_motility_disorder",
+          "label": "intestinal motility disorder",
+          "definition": "A condition characterized by abnormal movement of the intestines, leading to symptoms such as constipation or diarrhea.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_infection",
+          "label": "intestinal infection",
+          "definition": "An infection of the gastrointestinal tract caused by pathogens such as bacteria, viruses, or parasites, leading to symptoms like diarrhea and abdominal pain.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_absorption_disorder",
+          "label": "intestinal absorption disorder",
+          "definition": "A condition that impairs the absorption of nutrients from the intestines, leading to malnutrition and other health issues.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_tumor",
+          "label": "intestinal tumor",
+          "definition": "A growth or mass in the intestines that can be benign or malignant, often requiring medical intervention.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_ischemia",
+          "label": "intestinal ischemia",
+          "definition": "A condition characterized by reduced blood flow to the intestines, leading to tissue damage and impaired function.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_perforation",
+          "label": "intestinal perforation",
+          "definition": "A medical emergency where a hole forms in the wall of the intestine, leading to leakage of intestinal contents into the abdominal cavity.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_obstruction",
+          "label": "intestinal obstruction",
+          "definition": "A blockage in the intestines that prevents the normal passage of contents, leading to symptoms such as abdominal pain and bloating.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_bleeding",
+          "label": "intestinal bleeding",
+          "definition": "The loss of blood from the gastrointestinal tract, which can occur due to various conditions such as ulcers or tumors.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_fistula",
+          "label": "intestinal fistula",
+          "definition": "An abnormal connection between the intestine and another organ or body cavity, often resulting from injury or disease.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_diverticulitis",
+          "label": "intestinal diverticulitis",
+          "definition": "An inflammation of small pouches (diverticula) that can form in the walls of the intestines, leading to pain and digestive issues.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_polyps",
+          "label": "intestinal polyps",
+          "definition": "Abnormal growths on the lining of the intestines that can be benign or precursors to cancer.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_malabsorption",
+          "label": "intestinal malabsorption",
+          "definition": "A condition where the intestines do not properly absorb nutrients from food, leading to deficiencies and health issues.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_microbiome",
+          "label": "intestinal microbiome",
+          "definition": "The complex community of microorganisms residing in the intestines, which plays a crucial role in digestion, metabolism, and immune function.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_mucosal_barrier",
+          "label": "intestinal mucosal barrier",
+          "definition": "The protective layer of mucus and epithelial cells lining the intestines, which helps to prevent pathogen invasion and maintain gut health.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_peristalsis",
+          "label": "intestinal peristalsis",
+          "definition": "The coordinated, wave-like contractions of the intestinal muscles that move food and waste through the digestive tract.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_flora",
+          "label": "intestinal flora",
+          "definition": "The diverse community of microorganisms, including bacteria, fungi, and viruses, that inhabit the intestines and contribute to digestive health.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_epithelium",
+          "label": "intestinal epithelium",
+          "definition": "The layer of cells lining the intestines that plays a key role in nutrient absorption, barrier function, and immune response.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_immune_system",
+          "label": "intestinal immune system",
+          "definition": "The network of immune cells and tissues in the intestines that helps to protect against pathogens and maintain gut health.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_microbial_metabolism",
+          "label": "intestinal microbial metabolism",
+          "definition": "The biochemical processes carried out by the gut microbiota that contribute to digestion, nutrient absorption, and overall health.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_mucosal_immunity",
+          "label": "intestinal mucosal immunity",
+          "definition": "The immune response that occurs at the mucosal surfaces of the intestines, helping to protect against pathogens while maintaining tolerance to non-harmful substances.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_mucosal_inflammation",
+          "label": "intestinal mucosal inflammation",
+          "definition": "An inflammatory response in the mucosal lining of the intestines, often associated with conditions such as inflammatory bowel disease (IBD) or infections.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_mucosal_healing",
+          "label": "intestinal mucosal healing",
+          "definition": "The process by which the mucosal lining of the intestines repairs itself after injury or inflammation, restoring barrier function and health.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_mucosal_barrier_function",
+          "label": "intestinal mucosal barrier function",
+          "definition": "The ability of the intestinal mucosa to prevent the passage of harmful substances while allowing the absorption of nutrients, playing a crucial role in gut health.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_mucosal_microbiota_interaction",
+          "label": "intestinal mucosal microbiota interaction",
+          "definition": "The complex interactions between the intestinal mucosa and the gut microbiota, which influence digestion, immune response, and overall health.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_mucosal_integrity",
+          "label": "intestinal mucosal integrity",
+          "definition": "The structural and functional health of the intestinal mucosa, which is essential for proper digestion, nutrient absorption, and immune function.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "intestinal_mucosal_dysfunction",
+          "label": "intestinal mucosal dysfunction",
+          "definition": "A condition characterized by impaired function of the intestinal mucosa, leading to issues such as malabsorption, inflammation, or increased permeability.",
+          "locations": ["intestines"]
+        },
+        {
+          "id": "fluidd_buildup_in_the_lungs",
+          "label": "fluid buildup in the lungs",
+          "definition": "An accumulation of excess fluid in the lungs, which can lead to respiratory distress and impaired gas exchange.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "oxidative_stress_in_the_lungs",
+          "label": "oxidative stress in the lungs",
+          "definition": "An imbalance between the production of reactive oxygen species (ROS) and the body's ability to detoxify them, leading to cellular damage in the lungs.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "impaired_lung_function",
+          "label": "impaired lung function",
+          "definition": "A condition in which the lungs are unable to function properly, leading to difficulty in breathing and reduced oxygen exchange.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_inflammation",
+          "label": "lung inflammation",
+          "definition": "An inflammatory response in the lungs, often caused by infection, allergens, or irritants, leading to symptoms such as coughing and difficulty breathing.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_cellular_damage",
+          "label": "lung cellular damage",
+          "definition": "Harm to lung cells that impairs their function or structure, often resulting from oxidative stress or inflammation.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_metabolic_disorder",
+          "label": "lung metabolic disorder",
+          "definition": "A condition that disrupts normal metabolic processes in the lungs, leading to impaired function and health issues.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_immune_response",
+          "label": "lung immune response",
+          "definition": "The body's defense mechanism in the lungs against pathogens, characterized by the activation of immune cells and the production of antibodies.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_hormonal_regulation",
+          "label": "lung hormonal regulation",
+          "definition": "The process by which hormones control various physiological functions in the lungs, including inflammation and immune response.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "gas_exchange",
+          "label": "gas exchange",
+          "definition": "The process by which oxygen is absorbed into the bloodstream and carbon dioxide is expelled from the body, primarily occurring in the alveoli of the lungs.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "hypoxia",
+          "label": "hypoxia",
+          "definition": "A condition in which there is a deficiency of oxygen in the tissues, often leading to impaired cellular function and metabolism.",
+          "locations": ["lungs", "anywhere"]
+        },
+        {
+          "id": "hypercapnia",
+          "label": "hypercapnia",
+          "definition": "An excess of carbon dioxide in the bloodstream, often resulting from impaired gas exchange in the lungs.",
+          "locations": ["lungs", "anywhere"]
+        },
+        {
+          "id": "cellular_respiration",
+          "label": "cellular respiration",
+          "definition": "The biochemical process by which cells convert glucose and oxygen into energy (ATP), carbon dioxide, and water, primarily occurring in the mitochondria.",
+          "locations": ["lungs", "anywhere"]
+        },
+        {
+          "id": "lung_infection",
+          "label": "lung infection",
+          "definition": "An infection of the lungs caused by pathogens such as bacteria, viruses, or fungi, leading to symptoms like cough, fever, and difficulty breathing.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_cancer",
+          "label": "lung cancer",
+          "definition": "A malignant tumor that originates in the lungs, often associated with smoking or exposure to environmental toxins.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "chronic_obstructive_pulmonary_disease",
+          "label": "chronic obstructive pulmonary disease",
+          "definition": "A progressive lung disease characterized by airflow obstruction, leading to difficulty breathing and reduced lung function.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "asthma",
+          "label": "asthma",
+          "definition": "A chronic inflammatory disease of the airways that causes wheezing, shortness of breath, chest tightness, and coughing.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "pneumonia",
+          "label": "pneumonia",
+          "definition": "An infection that inflames the air sacs in one or both lungs, which may fill with fluid or pus, leading to cough, fever, and difficulty breathing.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "pulmonary_fibrosis",
+          "label": "pulmonary fibrosis",
+          "definition": "A lung disease that occurs when lung tissue becomes damaged and scarred, leading to progressive difficulty in breathing.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "pulmonary_embolism",
+          "label": "pulmonary embolism",
+          "definition": "A blockage in one of the pulmonary arteries in the lungs, usually caused by blood clots that travel to the lungs from the legs or other parts of the body.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "interstitial_lung_disease",
+          "label": "interstitial lung disease",
+          "definition": "A group of disorders that cause scarring (fibrosis) of the lungs, leading to progressive lung stiffness and difficulty breathing.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_hypertension",
+          "label": "lung hypertension",
+          "definition": "High blood pressure in the pulmonary arteries, which can lead to heart failure and other complications.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "pleural_effusion",
+          "label": "pleural effusion",
+          "definition": "An accumulation of excess fluid in the pleural space surrounding the lungs, which can cause difficulty breathing and chest pain.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "pneumothorax",
+          "label": "pneumothorax",
+          "definition": "A condition where air leaks into the pleural space, causing the lung to collapse and leading to sudden chest pain and shortness of breath.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_transplantation",
+          "label": "lung transplantation",
+          "definition": "A surgical procedure to replace a diseased or damaged lung with a healthy lung from a donor, often used for end-stage lung diseases.",
+          "locations": ["lungs"]
         }
       ]
     },
