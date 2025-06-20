@@ -177,6 +177,234 @@
           "locations": ["lungs", "anywhere"]
         },
         {
+          "id": "cftr_function",
+          "label": "CFTR function",
+          "definition": "The function of the cystic fibrosis transmembrane conductance regulator (CFTR) protein, which is a chloride channel involved in maintaining fluid balance in epithelial tissues.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "airway_surface_liquid_height",
+          "label": "airway surface liquid height",
+          "definition": "The thickness of the liquid layer on the surface of the airway epithelium, which is important for mucociliary clearance.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "foxj1_protein",
+          "label": "FOXJ1 protein",
+          "definition": "A transcription factor that regulates the expression of genes involved in cilia formation and function.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "motile_cilia_number_length",
+          "label": "motile cilia number/length",
+          "definition": "The number and length of motile cilia on epithelial cells, which are important for mucociliary clearance.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "ciliary_beat_frequency",
+          "label": "ciliary beat frequency",
+          "definition": "The rate at which cilia beat in a coordinated manner to clear mucus from the airways.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "mucociliary_clearance",
+          "label": "mucociliary clearance",
+          "definition": "The process by which mucus and trapped particles are cleared from the airways by the coordinated beating of cilia.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_function",
+          "label": "lung function",
+          "definition": "The ability of the lungs to perform normal respiratory functions, including gas exchange and ventilation.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "fluid_buildup_in_the_lungs",
+          "label": "fluid buildup in the lungs",
+          "definition": "An accumulation of excess fluid in the lungs, which can impair gas exchange and lead to respiratory distress.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "respiratory_failure",
+          "label": "respiratory failure",
+          "definition": "A condition in which the lungs are unable to provide adequate oxygenation or remove carbon dioxide from the blood, leading to respiratory distress.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "pulmonary_edema",
+          "label": "pulmonary edema",
+          "definition": "A condition characterized by excess fluid accumulation in the lungs, often leading to difficulty breathing and impaired gas exchange.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_tissue_damage",
+          "label": "lung tissue damage",
+          "definition": "Harm to lung tissue that impairs its structure and function, often resulting from inflammation or infection.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_ischemia",
+          "label": "lung ischemia",
+          "definition": "A condition characterized by reduced blood flow to the lungs, leading to tissue damage and impaired function.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_infarction",
+          "label": "lung infarction",
+          "definition": "The death of lung tissue due to lack of blood supply, often resulting from a blockage in the pulmonary circulation.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_pneumonia",
+          "label": "lung pneumonia",
+          "definition": "An infection of the lung tissue that leads to inflammation and impaired lung function.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_abscess",
+          "label": "lung abscess",
+          "definition": "A localized collection of pus in the lung tissue, often resulting from infection.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_empyema",
+          "label": "lung empyema",
+          "definition": "A collection of pus in the pleural cavity surrounding the lungs, often resulting from pneumonia or lung infection.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_atelectasis",
+          "label": "lung atelectasis",
+          "definition": "The collapse or incomplete expansion of a lung or part of a lung, leading to impaired gas exchange.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_hypertension",
+          "label": "lung hypertension",
+          "definition": "High blood pressure in the pulmonary arteries, which can lead to heart failure and impaired lung function.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_embolism",
+          "label": "lung embolism",
+          "definition": "A blockage in the pulmonary arteries caused by a blood clot or other material, leading to impaired blood flow and lung function.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_fibrosis",
+          "label": "lung fibrosis",
+          "definition": "The formation of excess fibrous connective tissue in the lungs, often resulting from chronic inflammation or injury.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_cystic_disease",
+          "label": "lung cystic disease",
+          "definition": "A condition characterized by the formation of cysts in the lung tissue, which can lead to impaired lung function.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_hyperinflation",
+          "label": "lung hyperinflation",
+          "definition": "An abnormal increase in the volume of air in the lungs, often associated with chronic obstructive pulmonary disease (COPD).",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_hypoplasia",
+          "label": "lung hypoplasia",
+          "definition": "Underdevelopment of lung tissue, which can lead to impaired lung function and respiratory distress.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_agenesis",
+          "label": "lung agenesis",
+          "definition": "The complete absence of lung tissue, which can lead to severe respiratory impairment.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_aplasia",
+          "label": "lung aplasia",
+          "definition": "The failure of lung tissue to develop properly, leading to impaired lung function.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_hyperplasia",
+          "label": "lung hyperplasia",
+          "definition": "An increase in the number of cells in the lung tissue, often resulting from chronic irritation or inflammation.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_metaplasia",
+          "label": "lung metaplasia",
+          "definition": "A reversible change in which one type of lung cell is replaced by another type, often in response to chronic irritation or inflammation.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_neoplasia",
+          "label": "lung neoplasia",
+          "definition": "The abnormal growth of lung cells, which can lead to the formation of tumors, either benign or malignant.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_adenocarcinoma",
+          "label": "lung adenocarcinoma",
+          "definition": "A type of lung cancer that originates in the glandular cells of the lung tissue, often associated with smoking and environmental exposures.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_squamous_cell_carcinoma",
+          "label": "lung squamous cell carcinoma",
+          "definition": "A type of lung cancer that originates in the squamous cells lining the airways, often associated with smoking.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_small_cell_carcinoma",
+          "label": "lung small cell carcinoma",
+          "definition": "A type of aggressive lung cancer that originates in neuroendocrine cells, often associated with smoking.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_large_cell_carcinoma",
+          "label": "lung large cell carcinoma",
+          "definition": "A type of lung cancer that originates in large, undifferentiated cells, often associated with smoking.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_metastasis",
+          "label": "lung metastasis",
+          "definition": "The spread of cancer cells from other parts of the body to the lungs, leading to secondary tumors.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_adenoma",
+          "label": "lung adenoma",
+          "definition": "A benign tumor that originates in the glandular cells of the lung tissue.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_carcinoid_tumor",
+          "label": "lung carcinoid tumor",
+          "definition": "A slow-growing tumor that originates in neuroendocrine cells of the lung, often considered a type of neuroendocrine tumor.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_lymphoma",
+          "label": "lung lymphoma",
+          "definition": "A type of cancer that originates in the lymphatic tissue of the lungs, often associated with immune system disorders.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_sarcoma",
+          "label": "lung sarcoma",
+          "definition": "A rare type of cancer that originates in the connective tissues of the lungs, such as muscle or fat.",
+          "locations": ["lungs"]
+        },
+        {
+          "id": "lung_pleural_mesothelioma",
+          "label": "lung pleural mesothelioma",
+          "definition": "A rare and aggressive cancer that originates in the pleura, the lining of the lungs, often associated with asbestos exposure.",
+          "locations": ["lungs"]
+        },
+        {
           "id": "fluid_buildup",
           "label": "fluid buildup",
           "definition": "An accumulation of excess fluid in tissues or cavities, which can lead to swelling and impaired function.",
@@ -764,12 +992,6 @@
           "locations": ["lungs"]
         },
         {
-          "id": "lung_hypertension",
-          "label": "lung hypertension",
-          "definition": "High blood pressure in the pulmonary arteries, which can lead to heart failure and other complications.",
-          "locations": ["lungs"]
-        },
-        {
           "id": "pleural_effusion",
           "label": "pleural effusion",
           "definition": "An accumulation of excess fluid in the pleural space surrounding the lungs, which can cause difficulty breathing and chest pain.",
@@ -801,6 +1023,16 @@
           "id": "activates",
           "label": "activates",
           "definition": "Increases the functional activity of a downstream protein, pathway, receptor, enzyme, or transcription factor."
+        },
+        {
+          "id": "increases",
+          "label": "increases",
+          "definition": "Describes a general increase in the level or concentration of a molecule, such as a protein, metabolite, or signaling molecule."
+        },
+        {
+          "id": "decreases",
+          "label": "decreases",
+          "definition": "Describes a general decrease in the level or concentration of a molecule, such as a protein, metabolite, or signaling molecule."
         },
         {
           "id": "upregulates",
@@ -1206,11 +1438,6 @@
           "id": "excretory_system",
           "label": "excretory system",
           "definition": "The excretory system is the organ system responsible for removing waste products from the body."
-        },
-        {
-          "id": "lymphatic_system",
-          "label": "lymphatic system",
-          "definition": "The lymphatic system is a network of vessels and nodes that play a role in immune function and fluid balance."
         }
       ]
     }

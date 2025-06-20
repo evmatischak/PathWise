@@ -1,46 +1,53 @@
 {
   "aop_id": "oxidative_stress@lung_function",
-  "title": "Increased oxidative stress leading to decreased lung function",
   "key_events": [
     {
       "id": "KE:1",
-      "title": "Oxidative stress",
-      "description": "An imbalance between the production of reactive oxygen species and antioxidant defenses."
+      "biological_entity_id": "oxidative_stress",
+      "mie": true,
+      "adverse_outcome": false
     },
     {
       "id": "KE:2",
-      "title": "CFTR function",
-      "description": "CFTR protein is a membrane-bound chloride channel"
+      "biological_entity_id": "cftr_function",
+      "mie": false,
+      "adverse_outcome": false
     },
     {
       "id": "KE:3",
-      "title": "Airway surface liquid (ASL) height",
-      "description": "The thickness of the liquid on the surface of the airway"
+      "biological_entity_id": "airway_surface_liquid_height",
+      "mie": false,
+      "adverse_outcome": false
     },
     {
       "id": "KE:4",
-      "title": "FOXJ1 Protein",
-      "description": "FOXJ1 transcription factor"
+      "biological_entity_id": "foxj1_protein",
+      "mie": false,
+      "adverse_outcome": false
     },
     {
       "id": "KE:5",
-      "title": "Motile cilia number/length",
-      "description": "Cilia in the airway that beat in a coordinated fashion to clear the airways"
+      "biological_entity_id": "motile_cilia_number_length",
+      "mie": false,
+      "adverse_outcome": false
     },
     {
       "id": "KE:6",
-      "title": "Ciliary beat frequency",
-      "description": "The frequency at which cilia beat in a coordinated manner in the airway"
+      "biological_entity_id": "ciliary_beat_frequency",
+      "mie": false,
+      "adverse_outcome": false
     },
     {
       "id": "KE:7",
-      "title": "Mucociliary clearance",
-      "description": "The ability of the motile cilia to rhythmically beat to remove mucus from the airway"
+      "biological_entity_id": "mucociliary_clearance",
+      "mie": false,
+      "adverse_outcome": false
     },
     {
       "id": "KE:8",
-      "title": "Lung function",
-      "description": "Ability of lungs to perform normal respiratory functions."
+      "biological_entity_id": "lung_function",
+      "mie": false,
+      "adverse_outcome": true
     }
   ],
   "key_event_relationships": [
@@ -49,7 +56,7 @@
       "source": "KE:1",
       "target": "KE:2",
       "relationship": [
-        "increased/decreased"
+        "increases", "decreases"
       ]
     },
     {
@@ -57,7 +64,7 @@
       "source": "KE:2",
       "target": "KE:3",
       "relationship": [
-        "decreased/decreased"
+        "decreases", "decreases"
       ]
     },
     {
@@ -65,7 +72,7 @@
       "source": "KE:1",
       "target": "KE:4",
       "relationship": [
-        "increased/decreased"
+        "increases", "decreases"
       ]
     },
     {
@@ -73,7 +80,7 @@
       "source": "KE:4",
       "target": "KE:5",
       "relationship": [
-        "decreased/decreased"
+        "decreases", "decreases"
       ]
     },
     {
@@ -81,7 +88,7 @@
       "source": "KE:3",
       "target": "KE:6",
       "relationship": [
-        "decreased/decreased"
+        "decreases", "decreases"
       ]
     },
     {
@@ -89,7 +96,7 @@
       "source": "KE:5",
       "target": "KE:6",
       "relationship": [
-        "decreased/decreased"
+        "decreases", "decreases"
       ]
     },
     {
@@ -97,7 +104,7 @@
       "source": "KE:6",
       "target": "KE:7",
       "relationship": [
-        "decreased/decreased"
+        "decreases", "decreases"
       ]
     },
     {
@@ -105,7 +112,7 @@
       "source": "KE:7",
       "target": "KE:8",
       "relationship": [
-        "decreased/decreased"
+        "decreases", "decreases"
       ]
     }
   ]
