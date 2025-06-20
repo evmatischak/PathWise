@@ -1,12 +1,12 @@
-name: Upload Pathwise Data to Firestore
+name: Upload Pathwise & Risklytx Data to Firestore
 
 on:
   push:
     branches:
-      - main  
+      - main
 
 jobs:
-  upload-to-firestore:
+  upload:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,10 +18,15 @@ jobs:
         with:
           node-version: '18'
 
-      - name:  Install Dependencies
+      - name:  Install Firebase Admin SDK
         run: npm install firebase-admin
 
-      - name:  Upload Pathwise Data to Firestore
-        run: node databaseUpload.js
+      - name: Upload to Pathwise Firestore
+        run: node pathwiseUpload.js
         env:
-          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          PATHWISE_SERVICE_ACCOUNT: ${{ secrets.PATHWISE_SERVICE_ACCOUNT }}
+
+      - name: Upload to Risklytx Firestore
+        run: node risklytxUpload.js
+        env:
+          RISKLYTX_SERVICE_ACCOUNT: ${{ secrets.RISKLYTX_SERVICE_ACCOUNT }}

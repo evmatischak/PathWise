@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const serviceAccount = JSON.parse(
-  Buffer.from(process.env.FIREBASE_SERVICE_ACCOUNT, "base64").toString("utf8")
+  Buffer.from(process.env.PATHWISE_SERVICE_ACCOUNT, "base64").toString("utf8")
 );
 
 admin.initializeApp({
