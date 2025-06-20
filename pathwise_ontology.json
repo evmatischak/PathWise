@@ -1022,7 +1022,7 @@
         {
           "id": "activates",
           "label": "activates",
-          "definition": "Increaes the functional activity of a downstream protein, pathway, receptor, enzyme, or transcription factor."
+          "definition": "Increases the functional activity of a downstream protein, pathway, receptor, enzyme, or transcription factor."
         },
         {
           "id": "increases",
