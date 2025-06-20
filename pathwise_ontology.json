@@ -1035,6 +1035,11 @@
           "definition": "Describes a general decrease in the level or concentration of a molecule, such as a protein, metabolite, or signaling molecule."
         },
         {
+          "id": "unknown",
+          "label": "unknown",
+          "definition": "Describes a relationship where the specific interaction or effect is not known or has not been characterized."
+        },
+        {
           "id": "upregulates",
           "label": "upregulates",
           "definition": "Increases the expression of a gene or protein, leading to higher levels of that gene or protein in the cell."

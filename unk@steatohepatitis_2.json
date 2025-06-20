@@ -1,67 +1,57 @@
 {
   "aop_id": "unk@streatosis_2",
-  "title": "FXR activation leading to steatosis",
   "key_events": [
     {
       "id": "KE:1",
-      "title": "Uknown",
-      "description": "Unknown key event",
+      "biological_entity_id": "unknown_key_event",
       "mie": true,
       "adverse_outcome": false
     },
     {
       "id": "KE:2",
-      "title": "FXR",
-      "description": "Farsenoid X receptor",
+      "biological_entity_id": "fxr",
       "mie": false,
       "adverse_outcome": false
     },
     {
         "id": "KE:3",
-        "title": "PPAR-alpha",
-        "description": "Peroxisome proliferator-activated receptor alpha",
+        "biological_entity_id": "ppara",
         "mie": false,
         "adverse_outcome": false
     },
     {
         "id": "KE:4",
-        "title": "SHP",
-        "description": "Small heterodimer partner",
+        "biological_entity_id": "shp",
         "mie": false,
         "adverse_outcome": false
     },
     {
         "id": "KE:5",
-        "title": "DHB4/HSD17B4",
-        "description": "Peroxisomal multifunctional enzyme type 2",
+        "biological_entity_id": "dhb4_hsd17b4",
         "mie": false,
         "adverse_outcome": false
     },
     {
         "id": "KE:6",
-        "title": "Fatty acid beta oxidation",
-        "description": "Fatty acid beta oxidation", 
+        "biological_entity_id": "fatty_acid_beta_oxidation",
         "mie": false,
         "adverse_outcome": false
     },
     {
         "id": "KE:7",
-        "title": "Steatosis",
-        "description": "Accumulation of fat in the liver",
+        "biological_entity_id": "steatosis",
         "mie": false,
         "adverse_outcome": false
     },
     {
         "id": "KE:8",
-        "title": "Oncotic necrosis",
-        "description": "Oncotic necrosis of hepatocytes",
+        "biological_entity_id": "oncotic_necrosis",
         "mie": false,
         "adverse_outcome": false
     },
     {
         "id": "KE:9",
-        "title": "Steatohepatitis",
-        "description": "Inflammation of the liver due to fat accumulation",
+        "biological_entity_id": "steatohepatitis",
         "mie": false,
         "adverse_outcome": true
     }    
@@ -72,7 +62,7 @@
       "source": "KE:1",
       "target": "KE:2",
       "relationship": [
-        "unknown/activated"
+        "unknown", "activates"
       ]
     },
     {
@@ -80,7 +70,7 @@
       "source": "KE:2",
       "target": "KE:3",
       "relationship": [
-        "activated/activated"
+        "activates", "activates"
       ]
     },
     {
@@ -88,31 +78,31 @@
       "source": "KE:2",
       "target": "KE:4",
       "relationship": [
-        "activated/increased"
+        "activates", "increases"
       ]
     },
     {
-        "id": "KER:4",
-        "source": "KE:4",
-        "target": "KE:3",
-        "relationship": [
-            "increased/activated"
-        ]
+      "id": "KER:4",
+      "source": "KE:4",
+      "target": "KE:3",
+      "relationship": [
+          "increases", "activates"
+      ]
     },
     {
-        "id": "KER:5",
-        "source": "KE:3",
-        "target": "KE:5",
-        "relationship": [
-            "increased/increased"
-        ]
+      "id": "KER:5",
+      "source": "KE:3",
+      "target": "KE:5",
+      "relationship": [
+          "increases", "increases"
+      ]
     },
     {
       "id": "KER:6",
       "source": "KE:5",
       "target": "KE:6",
       "relationship": [
-        "increased/decreases"
+        "increases", "decreases"
       ]
     },
     {
@@ -120,7 +110,7 @@
       "source": "KE:6",
       "target": "KE:7",
       "relationship": [
-        "increased/increased"
+        "increases", "increases"
       ]
     },
     {
@@ -128,7 +118,7 @@
       "source": "KE:7",
       "target": "KE:8",
       "relationship": [
-        "increased/increased"
+        "increases", "increases"
       ]
     },
     {
@@ -136,7 +126,7 @@
       "source": "KE:8",
       "target": "KE:9",
       "relationship": [
-        "increased/increased"
+        "increases", "increases"
       ]
     }
   ]
