@@ -12,8 +12,8 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-const PATHWAYS_DIR = path.join(__dirname, "..", "pathways");
-const ONTOLOGY_PATH = path.join(__dirname, "..", "pathwise_ontology.json");
+const PATHWAYS_DIR = path.join(process.cwd(), "pathways");
+const ONTOLOGY_PATH = path.join(process.cwd(), "pathwise_ontology.json");
 
 async function uploadPathways() {
   const collection = db.collection("pathways");
