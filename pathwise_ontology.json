@@ -1017,252 +1017,302 @@
         {
           "id": "inhibits",
           "label": "inhibits",
-          "definition": "Decreases or blocks the functional activity of a downstream protein, pathway, receptor, enzyme, or transcription factor."
+          "definition": "Decreases or blocks the functional activity of a downstream protein, pathway, receptor, enzyme, or transcription factor.",
+          "direction": "-"
         },
         {
           "id": "activates",
           "label": "activates",
-          "definition": "Increases the functional activity of a downstream protein, pathway, receptor, enzyme, or transcription factor."
+          "definition": "Increases the functional activity of a downstream protein, pathway, receptor, enzyme, or transcription factor.",
+          "direction": "+"
         },
         {
           "id": "increases",
           "label": "increases",
-          "definition": "Describes a general increase in the level or concentration of a molecule, such as a protein, metabolite, or signaling molecule."
+          "definition": "Describes a general increase in the level or concentration of a molecule, such as a protein, metabolite, or signaling molecule.",
+          "direction": "+"
         },
         {
           "id": "decreases",
           "label": "decreases",
-          "definition": "Describes a general decrease in the level or concentration of a molecule, such as a protein, metabolite, or signaling molecule."
+          "definition": "Describes a general decrease in the level or concentration of a molecule, such as a protein, metabolite, or signaling molecule.",
+          "direction": "-"
         },
         {
           "id": "unknown",
           "label": "unknown",
-          "definition": "Describes a relationship where the specific interaction or effect is not known or has not been characterized."
+          "definition": "Describes a relationship where the specific interaction or effect is not known or has not been characterized.",
+          "direction": "<>"
         },
         {
           "id": "upregulates",
           "label": "upregulates",
-          "definition": "Increases the expression of a gene or protein, leading to higher levels of that gene or protein in the cell."
+          "definition": "Increases the expression of a gene or protein, leading to higher levels of that gene or protein in the cell.",
+          "direction": "+"
         },
         {
           "id": "downregulates",
           "label": "downregulates",
-          "definition": "Decreases the expression of a gene or protein, leading to lower levels of that gene or protein in the cell."
+          "definition": "Decreases the expression of a gene or protein, leading to lower levels of that gene or protein in the cell.",
+          "direction": "-"
         },
         {
           "id": "binds_to",
           "label": "binds to",
-          "definition": "Describes a physical interaction between two molecules, such as a protein binding to a receptor or enzyme."
+          "definition": "Describes a physical interaction between two molecules, such as a protein binding to a receptor or enzyme.",
+          "direction": "<>"
         },
         {
           "id": "translocates_to",
           "label": "translocates to",
-          "definition": "Describes the movement of a molecule from one location to another within a cell or organism."
+          "definition": "Describes the movement of a molecule from one location to another within a cell or organism.",
+          "direction": "<>"
         },
         {
           "id": "interacts_with",
           "label": "interacts with",
-          "definition": "Describes a general interaction between two molecules, which may include binding, activation, inhibition, or other forms of interaction."
+          "definition": "Describes a general interaction between two molecules, which may include binding, activation, inhibition, or other forms of interaction.",
+          "direction": "<>"
         },
         {
           "id": "modulates",
           "label": "modulates",
-          "definition": "Describes a change in the activity or function of a molecule, which may involve activation, inhibition, or other forms of regulation."
+          "definition": "Describes a change in the activity or function of a molecule, which may involve activation, inhibition, or other forms of regulation.",
+          "direction": "<>"
         },
         {
           "id": "transforms_into",
           "label": "transforms into",
-          "definition": "Describes a change in the state or form of a molecule, such as a precursor molecule being converted into an active form."
+          "definition": "Describes a change in the state or form of a molecule, such as a precursor molecule being converted into an active form.",
+          "direction": "<>"
         },
         {
           "id": "stabilizes_mrna",
           "label": "stabilizes mRNA",
-          "definition": "Describes a process that increases the stability of messenger RNA (mRNA), preventing its degradation and allowing for longer translation into protein."
+          "definition": "Describes a process that increases the stability of messenger RNA (mRNA), preventing its degradation and allowing for longer translation into protein.",
+          "direction": "+"
         },
         {
           "id": "degrades_mrna",
           "label": "degrades mRNA",
-          "definition": "Describes a process that leads to the breakdown of messenger RNA (mRNA), resulting in decreased translation into protein."
+          "definition": "Describes a process that leads to the breakdown of messenger RNA (mRNA), resulting in decreased translation into protein.",
+          "direction": "-"
         },
         {
           "id": "transcribes",
           "label": "transcribes",
-          "definition": "Describes the process of synthesizing RNA from a DNA template, leading to the production of mRNA."
+          "definition": "Describes the process of synthesizing RNA from a DNA template, leading to the production of mRNA.",
+          "direction": "+"
         },
         {
           "id": "enhances_translation",
           "label": "enhances translation",
-          "definition": "Describes a process that increases the efficiency or rate of translation of mRNA into protein."
+          "definition": "Describes a process that increases the efficiency or rate of translation of mRNA into protein.",
+          "direction": "+"
         },
         {
           "id": "suppresses_translation",
           "label": "suppresses translation",
-          "definition": "Describes a process that inhibits the translation of mRNA into protein, leading to decreased protein synthesis."
+          "definition": "Describes a process that inhibits the translation of mRNA into protein, leading to decreased protein synthesis.",
+          "direction": "-"
         },
         {
           "id": "phosphorylates",
           "label": "phosphorylates",
-          "definition": "Describes the addition of a phosphate group to a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the addition of a phosphate group to a molecule, often a protein, which can alter its activity or function.",
+          "direction": "+"
         },
         {
           "id": "dephosphorylates",
           "label": "dephosphorylates",
-          "definition": "Describes the removal of a phosphate group from a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the removal of a phosphate group from a molecule, often a protein, which can alter its activity or function.",
+          "direction": "-"
         },
         {
           "id": "acetylates",
           "label": "acetylates",
-          "definition": "Describes the addition of an acetyl group to a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the addition of an acetyl group to a molecule, often a protein, which can alter its activity or function.",
+          "direction": "+"
         },
         {
           "id": "deacetylates",
           "label": "deacetylates",
-          "definition": "Describes the removal of an acetyl group from a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the removal of an acetyl group from a molecule, often a protein, which can alter its activity or function.",
+          "direction": "-"
         },
         {
           "id": "methylates",
           "label": "methylates",
-          "definition": "Describes the addition of a methyl group to a molecule, often a protein or DNA, which can alter its activity or function."
+          "definition": "Describes the addition of a methyl group to a molecule, often a protein or DNA, which can alter its activity or function.",
+          "direction": "-"
         },
         {
           "id": "demethylates",
           "label": "demethylates",
-          "definition": "Describes the removal of a methyl group from a molecule, often a protein or DNA, which can alter its activity or function."
+          "definition": "Describes the removal of a methyl group from a molecule, often a protein or DNA, which can alter its activity or function.",
+          "direction": "+"
         },
         {
           "id": "ubiquitinates",
           "label": "ubiquitinates",
-          "definition": "Describes the addition of ubiquitin to a protein, which can target it for degradation or alter its function."
+          "definition": "Describes the addition of ubiquitin to a protein, which can target it for degradation or alter its function.",
+          "direction": "-"
         },
         {
           "id": "deubiquitinates",
           "label": "deubiquitinates",
-          "definition": "Describes the removal of ubiquitin from a protein, which can prevent its degradation and alter its function."
+          "definition": "Describes the removal of ubiquitin from a protein, which can prevent its degradation and alter its function.",
+          "direction": "+"
         },
         {
           "id": "glycosylates",
           "label": "glycosylates",
-          "definition": "Describes the addition of a carbohydrate group to a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the addition of a carbohydrate group to a molecule, often a protein, which can alter its activity or function.",
+          "direction": "<>"
         },
         {
           "id": "deglycosylates",
           "label": "deglycosylates",
-          "definition": "Describes the removal of a carbohydrate group from a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the removal of a carbohydrate group from a molecule, often a protein, which can alter its activity or function.",
+          "direction": "<>"
         },
         {
           "id": "sulfates",
           "label": "sulfates",
-          "definition": "Describes the addition of a sulfate group to a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the addition of a sulfate group to a molecule, often a protein, which can alter its activity or function.",
+          "direction": "<>"
         },
         {
           "id": "desulfates",
           "label": "desulfates",
-          "definition": "Describes the removal of a sulfate group from a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the removal of a sulfate group from a molecule, often a protein, which can alter its activity or function.",
+          "direction": "<>"
         },
         {
           "id": "palmitoylates",
           "label": "palmitoylates",
-          "definition": "Describes the addition of a palmitoyl group to a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the addition of a palmitoyl group to a molecule, often a protein, which can alter its activity or function.",
+          "direction": "<>"
         },
         {
           "id": "depalmitoylates",
           "label": "depalmitoylates",
-          "definition": "Describes the removal of a palmitoyl group from a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the removal of a palmitoyl group from a molecule, often a protein, which can alter its activity or function.",
+          "direction": "<>"
         },
         {
           "id": "myristoylates",
           "label": "myristoylates",
-          "definition": "Describes the addition of a myristoyl group to a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the addition of a myristoyl group to a molecule, often a protein, which can alter its activity or function.",
+          "direction": "<>"
         },
         {
           "id": "demyristoylates",
           "label": "demyristoylates",
-          "definition": "Describes the removal of a myristoyl group from a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the removal of a myristoyl group from a molecule, often a protein, which can alter its activity or function.",
+          "direction": "<>"
         },
         {
           "id": "prenylates",
           "label": "prenylates",
-          "definition": "Describes the addition of a prenyl group to a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the addition of a prenyl group to a molecule, often a protein, which can alter its activity or function.",
+          "direction": "<>"
         },
         {
           "id": "deprenylates",
           "label": "deprenylates",
-          "definition": "Describes the removal of a prenyl group from a molecule, often a protein, which can alter its activity or function."
+          "definition": "Describes the removal of a prenyl group from a molecule, often a protein, which can alter its activity or function.",
+          "direction": "<>"
         },
         {
           "id": "transports",
           "label": "transports",
-          "definition": "Describes the movement of a molecule from one location to another within a cell or organism, often involving transport proteins or vesicles."
+          "definition": "Describes the movement of a molecule from one location to another within a cell or organism, often involving transport proteins or vesicles.",
+          "direction": "<>"
         },
         {
           "id": "secretes",
           "label": "secretes",
-          "definition": "Describes the process by which a cell or gland releases a substance, such as a hormone or enzyme, into the extracellular space or bloodstream."
+          "definition": "Describes the process by which a cell or gland releases a substance, such as a hormone or enzyme, into the extracellular space or bloodstream.",
+          "direction": "<>"
         },
         {
           "id": "absorbs",
           "label": "absorbs",
-          "definition": "Describes the process by which a cell or tissue takes up a substance, such as a nutrient or drug, from the extracellular space or bloodstream."
+          "definition": "Describes the process by which a cell or tissue takes up a substance, such as a nutrient or drug, from the extracellular space or bloodstream.",
+          "direction": "<>"
         },
         {
           "id": "excretes",
           "label": "excretes",
-          "definition": "Describes the process by which a cell or organism eliminates waste products or substances from its body."
+          "definition": "Describes the process by which a cell or organism eliminates waste products or substances from its body.",
+          "direction": "<>"
         },
         {
           "id": "synthesizes",
           "label": "synthesizes",
-          "definition": "Describes the process of creating a complex molecule from simpler precursors, often involving enzymatic reactions."
+          "definition": "Describes the process of creating a complex molecule from simpler precursors, often involving enzymatic reactions.",
+          "direction": "+"
         },
         {
           "id": "degrades",
           "label": "degrades",
-          "definition": "Describes the breakdown of a complex molecule into simpler components, often involving enzymatic reactions."
+          "definition": "Describes the breakdown of a complex molecule into simpler components, often involving enzymatic reactions.",
+          "direction": "-"
         },
         {
           "id": "forms_complexes_with",
           "label": "forms complexes with",
-          "definition": "Describes the interaction between two or more molecules to form a stable complex, which may be necessary for their function."
+          "definition": "Describes the interaction between two or more molecules to form a stable complex, which may be necessary for their function.",
+          "direction": "<>"
         },
         {
           "id": "dissociates_from",
           "label": "dissociates from",
-          "definition": "Describes the separation of a molecule from a complex or another molecule, often leading to a change in function or activity."
+          "definition": "Describes the separation of a molecule from a complex or another molecule, often leading to a change in function or activity.",
+          "direction": "<>"
         },
         {
           "id": "transports_across_membrane",
           "label": "transports across membrane",
-          "definition": "Describes the movement of a molecule across a biological membrane, often involving transport proteins or channels."
+          "definition": "Describes the movement of a molecule across a biological membrane, often involving transport proteins or channels.",
+          "direction": "<>"
         },
         {
           "id": "promotes_protein_degradation",
           "label": "promotes protein degradation",
-          "definition": "Describes a process that enhances the breakdown of proteins into smaller peptides or amino acids, often involving proteolytic enzymes."
+          "definition": "Describes a process that enhances the breakdown of proteins into smaller peptides or amino acids, often involving proteolytic enzymes.",
+          "direction": "-"
         },
         {
           "id": "inhibits_protein_degradation",
           "label": "inhibits protein degradation",
-          "definition": "Describes a process that prevents or reduces the breakdown of proteins into smaller peptides or amino acids, often involving proteolytic enzymes."
+          "definition": "Describes a process that prevents or reduces the breakdown of proteins into smaller peptides or amino acids, often involving proteolytic enzymes.",
+          "direction": "+"
         },
         {
           "id": "blocks_neurotransmitter_release",
           "label": "blocks neurotransmitter release", 
-          "definition": "Describes a process that prevents the release of neurotransmitters from nerve cells, which can affect communication between neurons."
+          "definition": "Describes a process that prevents the release of neurotransmitters from nerve cells, which can affect communication between neurons.",
+          "direction": "-"
         },
         {
           "id": "stimulates_neurotransmitter_release",
           "label": "stimulates neurotransmitter release",
-          "definition": "Describes a process that promotes the release of neurotransmitters from nerve cells, enhancing communication between neurons."
+          "definition": "Describes a process that promotes the release of neurotransmitters from nerve cells, enhancing communication between neurons.",
+          "direction": "+"
         },
         {
           "id": "inhibits_neurotransmitter_reuptake",
           "label": "inhibits neurotransmitter reuptake",
-          "definition": "Describes a process that prevents the reabsorption of neurotransmitters back into the nerve cell, prolonging their action in the synaptic cleft."
+          "definition": "Describes a process that prevents the reabsorption of neurotransmitters back into the nerve cell, prolonging their action in the synaptic cleft.",
+          "direction": "+"
         },
         {
           "id": "stimulates_neurotransmitter_reuptake",
           "label": "stimulates neurotransmitter reuptake",
-          "definition": "Describes a process that promotes the reabsorption of neurotransmitters back into the nerve cell, reducing their action in the synaptic cleft."
+          "definition": "Describes a process that promotes the reabsorption of neurotransmitters back into the nerve cell, reducing their action in the synaptic cleft.",
+          "direction": "-"
         }        
       ]
     },

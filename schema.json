@@ -68,6 +68,11 @@
                   "type": "string",
                   "enum": ["active", "deprecated"],
                   "description": "Status of the term (optional)."
+                },
+                "direction": {
+                  "type": "string",
+                  "enum": ["-", "+", "<>"],
+                  "description": "Direction of the relationship (optional)."
                 }
               },
               "additionalProperties": false
