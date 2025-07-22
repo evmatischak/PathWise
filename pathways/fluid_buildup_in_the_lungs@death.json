@@ -1,39 +1,33 @@
 {
   "aop_id": "fluid_buildup_in_the_lungs@death_1",
-  "title": "Lack of gas exchange due to drowning leads to death",
   "key_events": [
     {
       "id": "KE:1",
-      "title": "Fluid buildup in the lungs",
-      "description": "Exchange of oxygen and carbon dioxide between the lungs and blood",
+      "biological_entity_id": "fluid_buildup_in_the_lungs",
       "mie": true,
       "adverse_outcome": false
     },
     {
       "id": "KE:2",
-      "title": "Gas exchange",
-      "description": "Exchange of oxygen and carbon dioxide between the lungs and blood",
+      "biological_entity_id": "gas_exchange",
       "mie": true,
       "adverse_outcome": false
     },
     {
         "id": "KE:3",
-        "title": "hypoxia",
-        "description": "Lack of oxygen in the blood",
+        "biological_entity_id": "hypoxia",
         "mie": false,
         "adverse_outcome": false
     },
     {
         "id": "KE:4",
-        "title": "Cellular respiration",
-        "description": "Cellular respiration is the process of converting glucose and oxygen into energy",
+        "biological_entity_id": "cellular_respiration",
         "mie": false,
         "adverse_outcome": false
     },
     {
         "id": "KE:5",
-        "title": "Death",
-        "description": "Death of the organism",
+        "biological_entity_id": "death",
         "mie": false,
         "adverse_outcome": true
     }
@@ -44,7 +38,7 @@
       "source": "KE:1",
       "target": "KE:2",
       "relationship": [
-        "increases/inhibits"
+        "increases", "inhibits"
       ]
     },
     {
@@ -52,7 +46,7 @@
       "source": "KE:2",
       "target": "KE:3",
       "relationship": [
-        "activated/increases"
+        "inhibits", "increases"
       ]
     },
     {
@@ -60,7 +54,7 @@
       "source": "KE:3",
       "target": "KE:4",
       "relationship": [
-        "present/decreases"
+        "increases", "decreases"
       ]
     },
     {
@@ -68,7 +62,7 @@
         "source": "KE:4",
         "target": "KE:5",
         "relationship": [
-            "decreased/causes"
+          "decreases", "causes"
         ]
     }
   ]

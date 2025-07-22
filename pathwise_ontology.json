@@ -1313,6 +1313,12 @@
           "label": "stimulates neurotransmitter reuptake",
           "definition": "Describes a process that promotes the reabsorption of neurotransmitters back into the nerve cell, reducing their action in the synaptic cleft.",
           "direction": "-"
+        },
+        {
+          "id": "causes",
+          "label": "causes",
+          "definition": "Describes a relationship where one event or condition leads to the occurrence of another, often used in the context of disease or physiological processes.",
+          "direction": "+"
         }        
       ]
     },
