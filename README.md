@@ -8,6 +8,7 @@ One challenge with the current AOP-Wiki is that it runs on a first-come-first-ow
 Another challenge is that the AOP-Wiki in the past did not handle ontologies at all. So, new concepts were not aligned with an ontology, which made it difficult to know that one biological entity was the same as another. As a result, people are now going back in and trying to correct the lack of ontologies.
 
 
+
 We will have versions of the notebook for others to use as a guide on Github.
 
 We will also offer training on how to use it.
@@ -23,3 +24,5 @@ We will also need a web-based GUI that people can run to overlay their data onto
 Ultimately I will want to be able to come up with a batter of in vitro assays that covers a large swath of space.
 
 Commercial vendors can pay to advertise in the system to have their assays listed at the top of our results.
+
+example change
