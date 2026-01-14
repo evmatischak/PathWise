@@ -9,7 +9,7 @@ Another challenge is that the AOP-Wiki in the past did not handle ontologies at 
 
 Our solution is to adopt common open source software practices, and be ontology-first. People will create AOPs in a JUPYTER notebook 
 
-The JUPYTER notebook is designed to be uploaded to Google Colab. So Lyle will host it in his google drive as a template. Then others can copy the template and make it their own. 
+ 
 
 We will have versions of the notebook for others to use as a guide on Github.
 
