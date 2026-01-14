@@ -8,7 +8,6 @@ One challenge with the current AOP-Wiki is that it runs on a first-come-first-ow
 Another challenge is that the AOP-Wiki in the past did not handle ontologies at all. So, new concepts were not aligned with an ontology, which made it difficult to know that one biological entity was the same as another. As a result, people are now going back in and trying to correct the lack of ontologies.
 
 
- 
 
 We will have versions of the notebook for others to use as a guide on Github.
 
