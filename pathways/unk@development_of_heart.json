@@ -1,3 +1,4 @@
+{
 "aop_id": "unk@development_of_heart_1",
   "key_events": [
     {
@@ -142,4 +143,5 @@
         "relationship": [
           "leads_to", "forms"
         ]
-    }
+    }]
+}
